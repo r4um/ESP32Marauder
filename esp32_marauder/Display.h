@@ -8,13 +8,13 @@
 #ifdef HAS_SCREEN
 
 #include <FS.h>
+#include "SPIFFS.h"
 #include <functional>
 #include <JPEGDecoder.h>
 #include <LinkedList.h>
 #include <SPI.h>
 #include <lvgl.h>
 #include <Ticker.h>
-#include "SPIFFS.h"
 #include "Assets.h"
 
 #include <TFT_eSPI.h>

@@ -17,7 +17,8 @@
 #define MODE_CUSTOM 4
 
 extern Settings settings_obj;
-extern Adafruit_NeoPixel strip;
+// https://github.com/justcallmekoko/ESP32Marauder/issues/369#issuecomment-1847496221
+//extern Adafruit_NeoPixel strip;
 
 class LedInterface {
 

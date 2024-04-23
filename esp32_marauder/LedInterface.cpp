@@ -1,5 +1,7 @@
 #include "LedInterface.h"
 
+Adafruit_NeoPixel strip;
+
 LedInterface::LedInterface() {
 
 }
